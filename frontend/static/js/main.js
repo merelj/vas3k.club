@@ -44,6 +44,8 @@ new Vue({
             if (comment === null) {
                 return;
             }
+            
+            // FIX SOMEWHERE HERE
 
             // toggle thread visibility
             const collapseItems = comment.querySelectorAll(".thread-collapse-toggle");
